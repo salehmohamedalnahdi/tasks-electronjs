@@ -1,0 +1,32 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* header & footer */
+body{@apply bg-blue-400}
+body nav{@apply flex md:justify-between  bg-blue-500 h-10 uppercase md:px-4 text-white}
+.title-signup{@apply flex md:items-center}
+body nav h1{@apply font-bold md:text-xl }
+h2{@apply font-bold text-sm  md:pl-2}
+.pages{@apply flex md:items-center md:px-10 }
+body nav h2{@apply mx-4 hover:scale-125 transition ease-out duration-500}
+/* body footer{@apply mt-2 text-white text-center py-6 bg-blue-500 font-semibold text-lg } */
+
+
+.main{@apply my-8 flex justify-center font-semibold} 
+.content{@apply bg-white flex flex-col}
+.title{@apply text-center text-lg p-2}
+
+.tasks{@apply grid grid-cols-3 gap-4 md:pl-2 items-center}
+
+/*form*/
+.content-form{@apply flex justify-center mt-12 mb-12}
+.input-title{@apply block p-2  mb-1 border-2 border-blue-400 w-96 h-10}
+.submit{@apply block bg-red-500 text-white rounded-full px-2 py-1 w-fit hover:bg-gray-500}
+
+/* delete-button*/
+.delete{@apply flex justify-end py-2 pr-4}
+.delete-button{@apply text-red-500 rounded-full px-2 py-1 hover:bg-gray-500}
+.isDone{@apply flex justify-end py-2}
+#true{@apply text-green-600}

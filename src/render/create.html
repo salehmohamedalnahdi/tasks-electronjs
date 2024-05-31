@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline'">
+    <link rel="stylesheet" href="../common/style.css">
+    <title> welcom to createBlog page </title>
+ 
+  
+  </head>
+ <body class="">
+  <nav >
+    <div class="title-signup">
+      <h1>Welcome To Simple Blog</h1>
+      <a  href="#">
+          <h2>login</h2>
+      </a>
+      <a  href="#">
+          <h2>signup</h2>
+      </a>
+      </div>
+     <div class="pages">
+     <a  href="home.html">
+          <h2 >Home</h2>
+      </a>
+      <a  href="#">
+          <h2>About</h2>
+      </a>
+      <a  href="create.html">
+          <h2>Create</h2>
+      </a>
+     </div>
+    </nav>
+
+    <div class="content-form">
+        <form class="form" method="post">
+              <input id="title" placeholder="Type Title of Task" class="input-title" type="text" name="title" required>
+              <small>
+                <button id="submit" class="submit" type="submit">Submit</button>
+              </small>
+          </form>
+    </div>
+  <footer >
+    <p></p>
+  </footer>
+  <script src="./create.js"></script>
+</body>
+
+  </html>
