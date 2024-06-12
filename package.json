@@ -1,8 +1,8 @@
 {
-  "name": "simbleblog-electronjs1",
+  "name": "tasks-electronjs1",
   "version": "1.0.0",
   "description": "hellow",
-  "main": "./src/main.js",
+  "main": "./src/main/main.js",
   "scripts": {
     "start": "electron ."
   },
